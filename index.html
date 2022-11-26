@@ -23,27 +23,22 @@
             <!-- </audio> -->
             <div id="wrap">
                 <div id="text">
-                    <div id="code"> <font color="#FF0000"> <span class="say">称呼</span><br>
-                      <span class="say">第一行</span><br>
-                      <span class="say">无情的占位符</span><br>
-                      <span class="say">无情的占位符</span><br>             
-                      <span class="say">无情的占位符</span><br>
-                      <span class="say">无情的占位符</span><br>
-                      <span class="say">无情的占位符</span><br>
-                      <span class="say">无情的占位符</span><br>
-                      <span class="say">无情的占位符</span><br>
-                      <span class="say">无情的占位符</span><br>
-                      <span class="say">无情的占位符</span><br>
-                      <span class="say">最后一行</span><br>
-                      <span class="say"><span class="space"></span>--落款</span> </font>
+                    <div id="code"> <font color="#FF0000"> <span class="say">亲爱的何同学</span><br>
+                      <span class="say"></span><br>
+                      <span class="say">今天是我们相识的第24天</span><br>
+                      <span class="say">也许在其他人看来时间太短且上头，</span><br>             
+                      <span class="say">但我愿意相信自己的判断</span><br>
+                      <span class="say">就像之前说的</span><br>
+                      <span class="say">进入恋爱需要勇气</span><br>
+                      <span class="say">现在我想踏出这一步</span><br>
+                      <span class="say">你愿意从你和我成为我们吗</span><br>
+                      <span class="say"><span class="space"></span>向您致敬！</span> </font>
                           <br />
                           <br />
                       </p>
                     </div>
                   </div>
                 <div id="clock-box">
-                    <span class="STYLE1"></span><font color="#33CC00">亲爱的，我喜欢你</font>
-<span class="STYLE1">已经是……</span>
                   <div id="clock"></div>
               </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
@@ -197,14 +192,14 @@
         }));
 
         var runAsync = eval(Jscex.compile("async", function () {
-            $await(seedAnimate());
-            $await(growAnimate());
-            $await(flowAnimate());
-            $await(moveAnimate());
+            //$await(seedAnimate());
+            //$await(growAnimate());
+            //$await(flowAnimate());
+            //$await(moveAnimate());
 
             textAnimate().start();
 
-            $await(jumpAnimate());
+            //$await(jumpAnimate());
         }));
 
         runAsync().start();
